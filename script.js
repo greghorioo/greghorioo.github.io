@@ -4,8 +4,8 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const password = document.getElementById('password').value;
 
     if (username === "admin" && password === "password") {
-        // Redirect to dashboard.html after successful login
-        window.location.href = "dashboard.html";
+        // login sa page ni jom easier access. 
+        window.location.href = "https://awssassin.github.io/";
     } else {
         document.getElementById('message').textContent = "Invalid username or password!";
         document.getElementById('message').style.color = "red";
